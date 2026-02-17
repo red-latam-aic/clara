@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import "jekyll-theme-cayman"
+/* Tus estilos, puedes pegar aquí lo que tenías en assets/style.css */
+.container { max-width: 900px; margin: 0 auto; padding: 24px; font-family: system-ui, Arial, sans-serif; }
+
+.topnav { display: flex; justify-content: space-between; align-items: center; padding: 12px 24px; border-bottom: 1px solid #ddd; }
+.tabs { display: flex; gap: 10px; }
+.tab { text-decoration: none; padding: 8px 12px; border: 1px solid #ddd; border-radius: 10px; color: #111; }
+.tab.active { font-weight: 700; }
+.langbtn { text-decoration: none; padding: 8px 12px; border: 1px solid #ddd; border-radius: 10px; }
+
