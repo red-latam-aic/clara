@@ -1,0 +1,42 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign items = site.data.nav[lang] %}
+
+<nav class="topnav">
+  <div class="tabs">
+    {% for item in items %}
+      {% assign is_active = page.url == item.url %}
+      <a class="tab {% if is_active %}active{% endif %}" href="{{ item.url | relative_url }}">
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  </div>
+
+  {% if page.ref %}
+    {% assign p_es = site.pages | where: "ref", page.ref | where: "lang", "es" | first %}
+    {% assign p_en = site.pages | where: "ref", page.ref | where: "lang", "en" | first %}
+    {% assign p_pt = site.pages | where: "ref", page.ref | where: "lang", "pt" | first %}
+
+    <div class="lang">
+      {% if lang != "es" and p_es %}
+        <a class="langbtn" href="{{ p_es.url | relative_url }}">
+          {% if lang == "en" %}{{ site.data.strings[lang].switch_to_es }}{% endif %}
+          {% if lang == "pt" %}{{ site.data.strings[lang].switch_to_es }}{% endif %}
+        </a>
+      {% endif %}
+
+      {% if lang != "en" and p_en %}
+        <a class="langbtn" href="{{ p_en.url | relative_url }}">
+          {% if lang == "es" %}{{ site.data.strings[lang].switch_to_en }}{% endif %}
+          {% if lang == "pt" %}{{ site.data.strings[lang].switch_to_en }}{% endif %}
+        </a>
+      {% endif %}
+
+      {% if lang != "pt" and p_pt %}
+        <a class="langbtn" href="{{ p_pt.url | relative_url }}">
+          {% if lang == "es" %}{{ site.data.strings[lang].switch_to_pt }}{% endif %}
+          {% if lang == "en" %}{{ site.data.strings[lang].switch_to_pt }}{% endif %}
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+</nav>

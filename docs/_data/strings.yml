@@ -1,0 +1,9 @@
+es:
+  switch_to_en: English
+  switch_to_pt: Português
+en:
+  switch_to_es: Español
+  switch_to_pt: Português
+pt:
+  switch_to_es: Español
+  switch_to_en: English

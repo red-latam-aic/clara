@@ -1,0 +1,24 @@
+
+es:
+  - name: Inicio
+    url: /es/
+  - name: Acerca
+    url: /es/about/
+  - name: Contacto
+    url: /es/contact/
+
+en:
+  - name: Home
+    url: /en/
+  - name: About
+    url: /en/about/
+  - name: Contact
+    url: /en/contact/
+    
+pt:
+  - name: Início
+    url: /pt/
+  - name: Sobre
+    url: /pt/about/
+  - name: Contato
+    url: /pt/contact/
