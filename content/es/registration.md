@@ -5,6 +5,6 @@ La inscripción es gratuita y abierta a todos. Para participar es necesario que 
 
 Por favor, use la forma de registro aquí:
 
-{{< googleform src="https://docs.google.com/forms/d/e/1FAIpQLSehVCMBXMbYCiIx6JJKHpdXwBJdNYBmR4j_0A1VM1PPaPY1AQ/viewform?embedded=true" >}}
+< iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehVCMBXMbYCiIx6JJKHpdXwBJdNYBmR4j_0A1VM1PPaPY1AQ/viewform?embedded=true" width="640" height="1008" frameborder="0" marginheight="0" marginwidth="0">Cargando.…</iframe>
 
 Si el formulario no carga, [ábralo en una pestaña nueva](https://forms.gle/UCMLjDyB3TV6AdxL9).
