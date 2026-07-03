@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>CLARA 2026</title>
+		<link>http://localhost:1313/clara/</link>
+		<description>Recent content on CLARA 2026</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/clara/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Abstracts and speakers</title>
+				<link>http://localhost:1313/clara/abstracts/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/abstracts/</guid>
+				<description>&lt;h1 id=&#34;keynote-speakers&#34;&gt;Keynote Speakers&lt;/h1&gt;&#xA;&lt;p&gt;The keynote speakers are outstanding researchers with latinamerican backgroud specialized on applications of AI methodologies to the natural sciences and engineering.&lt;/p&gt;&#xA;&lt;p&gt;[!comment](Add abstract and picture.)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Prof. Fernanda Duarte, Oxford University, United Kingdom.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Chemistry.&lt;/li&gt;&#xA;&lt;li&gt;Prof. Fernanda Selingardi Matias, Universidade Federal de Alagoas, Brazil.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for Neurosciences.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Oscar Mendez-Lucio, Recursion, Spain.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for Drug Desing, applications of ML in industrial settings.&lt;/li&gt;&#xA;&lt;li&gt;Prof. Vinicius Mikuni, Nagoya University, Japan.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in High-Energy Physics.&lt;/li&gt;&#xA;&lt;li&gt;Anais Möller, Swinburne University, Australia.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Astronomy.&lt;/li&gt;&#xA;&lt;li&gt;Ehecatl Antonio del Río Chanona, Imperial College London, United Kingdom.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Bioprocess Engineering.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;organizers&#34;&gt;Organizers&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dr. Juan Carlos San Vicente, Temple University, USA.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for excited state chemistry.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Manuel Szewc, Universidad de San Martin, Argentina.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in HEP.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Luis Itza Vazquez-Salazar, Heidelberg University, Germany.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Generative Machine Learning in Chemistry.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;selected-student-presentantions&#34;&gt;Selected Student Presentantions&lt;/h1&gt;&#xA;&lt;p&gt;TBA&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Organisers and contact</title>
+				<link>http://localhost:1313/clara/organizers/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/organizers/</guid>
+				<description>&lt;p&gt;The conference &amp;ldquo;AI Latam Elevator Pitch&amp;rdquo; is organized by the Latinamerican Network of Artificial Intelligence in the Sciences (RELIAC) which is a network of latinoamerical scientists on different parts of the world that uses AI in their current research. You can find more information about RELIAC in the &lt;a href=&#34;https://red-latam-aic.github.io/en/&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This conference is independently organized by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dr. Juan Carlos San Vicente, Temple University, USA.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Manuel Szewc, Universidad de San Martin, Argentina.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Luis Itza Vazquez-Salazar, Heidelberg University, Germany.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can contact us at: &lt;code&gt;red.latam.aic@gmail.com&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Registration</title>
+				<link>http://localhost:1313/clara/registration/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/registration/</guid>
+				<description>&lt;p&gt;Registration is free and open to everyone. You need to register to participate in the conference; you will receive the link and more information before the event. As part of the registration, you also have the option of submit an abstract for a 10 minute talk followed by 5 minutes of questions where you can show how you use AI in your research. There are a limited number of spots for talks, but not for participation in the conference.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Schedule</title>
+				<link>http://localhost:1313/clara/schedule/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/schedule/</guid>
+				<description>&lt;p&gt;The programme runs over two and a half days, fully online. The link would be shared only with registered persons. Please register here. The times below adjust to the time zone you choose. By default, times are shown in your device&amp;rsquo;s local time.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

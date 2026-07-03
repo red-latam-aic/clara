@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>CLARA 2026</title>
+		<link>http://localhost:1313/clara/es/</link>
+		<description>Recent content on CLARA 2026</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/clara/es/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Inscripción</title>
+				<link>http://localhost:1313/clara/es/registration/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/es/registration/</guid>
+				<description>&lt;p&gt;La inscripción es gratuita y abierta a todos. Para participar es necesario que te registres. Recibirá el enlace para unirse a la reunión y más información antes del evento. Como parte del registro, también se le ofrece la opción de subir un resumen de una plática de 10 minutos, seguida de 5 minutos de preguntas, en la que puede mostrar cómo utiliza la IA en su investigación. Hay un número limitado de lugares para las pláticas, pero no para participar en la conferencia.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Organización y contacto</title>
+				<link>http://localhost:1313/clara/es/organizers/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/es/organizers/</guid>
+				<description>&lt;p&gt;La conferencia &amp;ldquo;AI Latam Elevator Pitch&amp;rdquo; es organizada por la Red Latinoamericana de Inteligencia Artificial en las Ciencias (RELIAC) que es una red de cientificos latinoamericanos en differentes partes del mundo que utilizan IA en su investigaci. Puedes encontrar mas informacion acerca de RELIAC in el &lt;a href=&#34;https://red-latam-aic.github.io/es/&#34;&gt;sitio web&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esta conferencia is independentemente organizada por:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dr. Juan Carlos San Vicente, Temple University, USA.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Manuel Szewc, Universidad de San Martin, Argentina.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Luis Itza Vazquez-Salazar, Heidelberg University, Germany.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Puedes contactarnos en: &lt;code&gt;red.latam.aic@gmail.com&lt;/code&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Programa</title>
+				<link>http://localhost:1313/clara/es/schedule/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/es/schedule/</guid>
+				<description>&lt;p&gt;El programa se desarrolla en dos días y medio, totalmente en línea. El enlace para unirse se compartirá únicamente con las personas registradas. Por favor, registrese aquí. Los horarios se ajustan a la zona horaria que elija. De forma predeterminada, se muestran en la hora local de su dispositivo.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Resúmenes y ponentes</title>
+				<link>http://localhost:1313/clara/es/abstracts/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/es/abstracts/</guid>
+				<description>&lt;h1 id=&#34;ponentes-invitados&#34;&gt;Ponentes invitados&lt;/h1&gt;&#xA;&lt;p&gt;Los ponentes invitados son destacados investigadores de origen latinoamericano, especializados en la aplicación de metodologías de IA en las ciencias naturales y la ingeniería.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Prof. Fernanda Duarte, Oxford University, United Kingdom.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Chemistry.&lt;/li&gt;&#xA;&lt;li&gt;Prof. Fernanda Selingardi Matias, Universidade Federal de Alagoas, Brasil.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for Neurosciences.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Oscar Mendez-Lucio, Recursion, Spain.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for Drug Design, applications of ML in industrial settings.&lt;/li&gt;&#xA;&lt;li&gt;Prof. Vinicius Mikuni, Nagoya University, Japan.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in High-Energy Physics.&lt;/li&gt;&#xA;&lt;li&gt;Anais Möller, Swinburne University, Australia.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Astronomy.&lt;/li&gt;&#xA;&lt;li&gt;Ehecatl Antonio del Río Chanona, Imperial College London, United Kingdom.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Bioprocess Engineering.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;organizadores&#34;&gt;Organizadores&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dr. Juan Carlos San Vicente, Temple University, USA.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for excited state chemistry.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Manuel Szewc, Universidad de San Martín, Argentina.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in HEP.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Luis Itza Vázquez-Salazar, Heidelberg University, Germany.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Generative Machine Learning in Chemistry.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;presentaciones-de-estudiantes-seleccionadas&#34;&gt;Presentaciones de Estudiantes Seleccionadas&lt;/h1&gt;&#xA;&lt;p&gt;TBA&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

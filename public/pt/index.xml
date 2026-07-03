@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>CLARA 2026</title>
+		<link>http://localhost:1313/clara/pt/</link>
+		<description>Recent content on CLARA 2026</description>
+		<generator>Hugo</generator>
+		<language>pt</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/clara/pt/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Inscrição</title>
+				<link>http://localhost:1313/clara/pt/registration/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/pt/registration/</guid>
+				<description>&lt;p&gt;As inscrições são gratuitas e abertas a todos. Para participar, você precisa se cadastrar. Você receberá o link para participar da reunião e mais informações antes do evento. Como parte da inscrição, você também terá a opção de enviar um resumo de uma palestra de 10 minutos, seguido de 5 minutos de perguntas, nas quais você poderá mostrar como utiliza a IA em sua pesquisa. Há um número limitado de vagas para palestras, mas não para participação na conferência.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Organização e contato</title>
+				<link>http://localhost:1313/clara/pt/organizers/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/pt/organizers/</guid>
+				<description>&lt;p&gt;A CLARA é organizada por pessoas voluntárias da rede latino-americana de IA nas Ciências.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Programação</title>
+				<link>http://localhost:1313/clara/pt/schedule/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/pt/schedule/</guid>
+				<description>&lt;p&gt;O programa acontece em dois dias e meio, totalmente online. O link para participar será compartilhado apenas com pessoas cadastradas. Por favor, registe-se aqui. Os horários se ajustam ao fuso horário que você escolher. Por padrão, eles são exibidos no fuso horário local do seu dispositivo.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Resumos e palestrantes</title>
+				<link>http://localhost:1313/clara/pt/abstracts/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/clara/pt/abstracts/</guid>
+				<description>&lt;h1 id=&#34;palestrantes-convidados&#34;&gt;Palestrantes convidados&lt;/h1&gt;&#xA;&lt;p&gt;Os palestrantes convidados são pesquisadores de destaque de origem latino-americana, especializados na aplicação de metodologias de IA nas ciências naturais e na engenharia.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Prof. Fernanda Duarte, Oxford University, United Kingdom.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Chemistry.&lt;/li&gt;&#xA;&lt;li&gt;Prof. Fernanda Selingardi Matias, Universidade Federal de Alagoas, Brasil.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for Neurosciences.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Oscar Mendez-Lucio, Recursion, Spain.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for Drug Design, applications of ML in industrial settings.&lt;/li&gt;&#xA;&lt;li&gt;Prof. Vinicius Mikuni, Nagoya University, Japan.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in High-Energy Physics.&lt;/li&gt;&#xA;&lt;li&gt;Anais Möller, Swinburne University, Australia.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Astronomy.&lt;/li&gt;&#xA;&lt;li&gt;Ehecatl Antonio del Río Chanona, Imperial College London, United Kingdom.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in Bioprocess Engineering.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;organizadores&#34;&gt;Organizadores&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dr. Juan Carlos San Vicente, Temple University, USA.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning for excited state chemistry.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Manuel Szewc, Universidad de San Martín, Argentina.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Machine Learning in HEP.&lt;/li&gt;&#xA;&lt;li&gt;Dr. Luis Itza Vázquez-Salazar, Heidelberg University, Germany.&#xA;&lt;em&gt;Topic&lt;/em&gt;: Generative Machine Learning in Chemistry.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;apresentações-de-alunos-selecionadas&#34;&gt;Apresentações de Alunos Selecionadas&lt;/h1&gt;&#xA;&lt;p&gt;TBA&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
