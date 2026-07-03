@@ -1,0 +1,19 @@
+# Committees and contact. Replace the bracketed placeholders.
+committees:
+  - role:
+      en: "Organising committee"
+      es: "Comité organizador"
+      pt: "Comissão organizadora"
+    people:
+      - name: "Juan Carlos San Vicente"
+        affiliation: "[Temple University, USA]"
+      - name: "Manuel Szewc"
+        affiliation: "[Universidad de San Martin, Argentina]"
+      - name: "Luis Itza Vazquez Salazar"
+        affiliation: "[Heidelberg Universty, Germany]"
+contact:
+  email: "red.latam.aic@gmail.com"
+  note:
+    en: "For any question, write to us at"
+    es: "Para cualquier consulta, escríbanos a"
+    pt: "Para qualquer dúvida, escreva para nós em"

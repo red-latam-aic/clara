@@ -1,0 +1,23 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $speakers := .Site.Data.speakers }}
+{{ range .Site.Data.schedule.days }}
+<div class="day">
+  <h2 class="day-title">{{ i18n "day_label" }} {{ .id }} <span class="day-date">{{ .date_utc }}</span></h2>
+  <ul class="sessions">
+    {{ range .sessions }}
+    <li class="session kind-{{ .kind }}">
+      <span class="session-time" data-start="{{ .start }}" data-end="{{ .end }}">{{ (time .start).UTC.Format "Mon 2 Jan, 15:04" }} UTC</span>
+      <span class="session-body">
+        <span class="session-kind">{{ i18n (printf "schedule_kind_%s" .kind) }}</span>
+        <span class="session-title">{{ index .title $lang | default (index .title "en") }}</span>
+        {{ with .speaker_ids }}
+        <span class="session-speakers">
+          {{ range $i, $id := . }}{{ if $i }}, {{ end }}{{ range $speakers }}{{ if eq .id $id }}{{ .name }}{{ end }}{{ end }}{{ end }}
+        </span>
+        {{ end }}
+      </span>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

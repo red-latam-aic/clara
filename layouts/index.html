@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="hero">
+  {{ partial "network-motif.html" (dict "mode" "hero") }}
+  <div class="container hero-inner">
+    {{ with .Params.hero.eyebrow }}<p class="eyebrow"><span class="eyebrow-node" aria-hidden="true"></span>{{ . }}</p>{{ end }}
+    <h1 class="hero-title">{{ .Params.hero.headline }}</h1>
+    {{ with .Params.hero.subtitle }}<p class="hero-sub">{{ . }}</p>{{ end }}
+    <dl class="hero-facts">
+      <div><dt>{{ i18n "dates_label" }}</dt><dd>{{ .Params.hero.dates }}</dd></div>
+      <div><dt>{{ i18n "format_label" }}</dt><dd>{{ i18n "format_value" }}</dd></div>
+    </dl>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="{{ "registration" | relLangURL }}">{{ i18n "register_cta" }}</a>
+      <a class="btn btn-ghost" href="{{ "schedule" | relLangURL }}">{{ i18n "view_schedule" }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container narrow prose">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,32 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ "" | relLangURL }}" aria-label="CLARA">
+      {{ partial "network-motif.html" (dict "mode" "mark") }}
+      <span class="brand-name">CLARA</span>
+      <span class="brand-year">2026</span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Main">
+      <ul id="nav-list">
+        {{ range .Site.Menus.main }}
+          {{ $url := .PageRef | relLangURL }}
+          {{ with .Page }}{{ $url = .RelPermalink }}{{ end }}
+          <li><a href="{{ $url }}"{{ if and .Page (eq .Page $) }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    {{ with .AllTranslations }}
+    <div class="lang-switch" aria-label="{{ i18n "lang_switch" }}">
+      {{ $cur := $.Site.Language.Lang }}
+      {{ range . }}
+        <a href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $cur }} class="is-current" aria-current="true"{{ end }}>{{ .Language.Lang | upper }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</header>

@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow"><span class="eyebrow-node" aria-hidden="true"></span>CLARA 2026</p>
+    <h1 class="page-title">{{ .Title }}</h1>
+    <div class="prose lede">{{ .Content }}</div>
+
+    <div class="tz-bar">
+      <label for="tz-select">{{ i18n "tz_label" }}</label>
+      <select id="tz-select">
+        <option value="auto">{{ i18n "tz_auto" }}</option>
+        <option value="UTC">UTC</option>
+        <option value="America/Mexico_City">Ciudad de México (CST)</option>
+        <option value="America/Bogota">Bogotá / Lima (COT)</option>
+        <option value="America/Santiago">Santiago (CLT)</option>
+        <option value="America/Argentina/Buenos_Aires">Buenos Aires (ART)</option>
+        <option value="America/Sao_Paulo">São Paulo (BRT)</option>
+        <option value="Europe/Lisbon">Lisboa (WET)</option>
+        <option value="Europe/Madrid">Madrid (CET)</option>
+      </select>
+      <p class="tz-note">{{ i18n "tz_note" }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ partial "schedule.html" . }}
+  </div>
+</section>
+{{ end }}

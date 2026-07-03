@@ -1,0 +1,99 @@
+baseURL = "https://red-latam-aic.github.io/clara/"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+title = "CLARA 2026"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "CLARA, the inaugural conference of the Latin American AI in Sciences network. Fully online, free to attend."
+
+# ----- Languages -----
+[languages]
+
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    languageCode = "en"
+    weight = 1
+    title = "CLARA 2026"
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        name = "Home"
+        pageRef = "/"
+        weight = 1
+      [[languages.en.menus.main]]
+        name = "Schedule"
+        pageRef = "/schedule"
+        weight = 2
+      [[languages.en.menus.main]]
+        name = "Registration"
+        pageRef = "/registration"
+        weight = 3
+      [[languages.en.menus.main]]
+        name = "Abstracts and speakers"
+        pageRef = "/abstracts"
+        weight = 4
+      [[languages.en.menus.main]]
+        name = "Organisers and contact"
+        pageRef = "/organizers"
+        weight = 5
+
+  [languages.es]
+    contentDir = "content/es"
+    languageName = "Español"
+    languageCode = "es"
+    weight = 2
+    title = "CLARA 2026"
+    [languages.es.menus]
+      [[languages.es.menus.main]]
+        name = "Inicio"
+        pageRef = "/"
+        weight = 1
+      [[languages.es.menus.main]]
+        name = "Programa"
+        pageRef = "/schedule"
+        weight = 2
+      [[languages.es.menus.main]]
+        name = "Inscripción"
+        pageRef = "/registration"
+        weight = 3
+      [[languages.es.menus.main]]
+        name = "Resúmenes y ponentes"
+        pageRef = "/abstracts"
+        weight = 4
+      [[languages.es.menus.main]]
+        name = "Organización y contacto"
+        pageRef = "/organizers"
+        weight = 5
+
+  [languages.pt]
+    contentDir = "content/pt"
+    languageName = "Português"
+    languageCode = "pt"
+    weight = 3
+    title = "CLARA 2026"
+    [languages.pt.menus]
+      [[languages.pt.menus.main]]
+        name = "Início"
+        pageRef = "/"
+        weight = 1
+      [[languages.pt.menus.main]]
+        name = "Programação"
+        pageRef = "/schedule"
+        weight = 2
+      [[languages.pt.menus.main]]
+        name = "Inscrição"
+        pageRef = "/registration"
+        weight = 3
+      [[languages.pt.menus.main]]
+        name = "Resumos e palestrantes"
+        pageRef = "/abstracts"
+        weight = 4
+      [[languages.pt.menus.main]]
+        name = "Organização e contato"
+        pageRef = "/organizers"
+        weight = 5

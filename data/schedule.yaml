@@ -1,0 +1,91 @@
+# All start and end values are in UTC (the trailing Z means UTC).
+# Visitors see them converted to the time zone they pick in the browser.
+# To add a session, copy a block and edit the times, kind, title, and speaker_ids.
+# Allowed kinds: ceremony, keynote, talks, panel, break (used for styling and labels).
+days:
+  - id: 1
+    date_utc: "2026-11-12"
+    sessions:
+      - start: "2026-11-12T14:00:00Z"
+        end:   "2026-11-12T14:15:00Z"
+        kind: "ceremony"
+        title:
+          en: "Opening remarks"
+          es: "Palabras de apertura"
+          pt: "Abertura"
+        speaker_ids: []
+      - start: "2026-11-12T14:15:00Z"
+        end:   "2026-11-12T15:15:00Z"
+        kind: "keynote"
+        title:
+          en: "Keynote: [title to be confirmed]"
+          es: "Conferencia magistral: [título por confirmar]"
+          pt: "Palestra principal: [título a confirmar]"
+        speaker_ids: ["keynote-1"]
+      - start: "2026-11-12T15:15:00Z"
+        end:   "2026-11-12T15:30:00Z"
+        kind: "break"
+        title:
+          en: "Break"
+          es: "Pausa"
+          pt: "Intervalo"
+        speaker_ids: []
+      - start: "2026-11-12T15:30:00Z"
+        end:   "2026-11-12T16:30:00Z"
+        kind: "talks"
+        title:
+          en: "Contributed talks"
+          es: "Charlas contribuidas"
+          pt: "Apresentações de trabalhos"
+        speaker_ids: []
+      - start: "2026-11-12T16:30:00Z"
+        end:   "2026-11-12T17:30:00Z"
+        kind: "keynote"
+        title:
+          en: "Keynote: [title to be confirmed]"
+          es: "Conferencia magistral: [título por confirmar]"
+          pt: "Palestra principal: [título a confirmar]"
+        speaker_ids: ["keynote-2"]
+  - id: 2
+    date_utc: "2026-11-13"
+    sessions:
+      - start: "2026-11-13T14:00:00Z"
+        end:   "2026-11-13T15:00:00Z"
+        kind: "keynote"
+        title:
+          en: "Keynote: [title to be confirmed]"
+          es: "Conferencia magistral: [título por confirmar]"
+          pt: "Palestra principal: [título a confirmar]"
+        speaker_ids: ["keynote-3"]
+      - start: "2026-11-13T15:00:00Z"
+        end:   "2026-11-13T15:15:00Z"
+        kind: "break"
+        title:
+          en: "Break"
+          es: "Pausa"
+          pt: "Intervalo"
+        speaker_ids: []
+      - start: "2026-11-13T15:15:00Z"
+        end:   "2026-11-13T16:30:00Z"
+        kind: "talks"
+        title:
+          en: "Contributed talks"
+          es: "Charlas contribuidas"
+          pt: "Apresentações de trabalhos"
+        speaker_ids: []
+      - start: "2026-11-13T16:30:00Z"
+        end:   "2026-11-13T17:00:00Z"
+        kind: "panel"
+        title:
+          en: "Panel: building the network"
+          es: "Panel: construyendo la red"
+          pt: "Painel: construindo a rede"
+        speaker_ids: []
+      - start: "2026-11-13T17:00:00Z"
+        end:   "2026-11-13T17:15:00Z"
+        kind: "ceremony"
+        title:
+          en: "Closing remarks"
+          es: "Palabras de cierre"
+          pt: "Encerramento"
+        speaker_ids: []

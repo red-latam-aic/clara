@@ -1,0 +1,38 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="container narrow">
+    <p class="eyebrow"><span class="eyebrow-node" aria-hidden="true"></span>CLARA 2026</p>
+    <h1 class="page-title">{{ .Title }}</h1>
+    <div class="prose lede">{{ .Content }}</div>
+    <p class="abstracts-cta">
+      {{ if fileExists "static/files/book-of-abstracts.pdf" }}
+        <a class="btn btn-primary" href="{{ "files/book-of-abstracts.pdf" | relURL }}" download>{{ i18n "abstracts_download" }}</a>
+      {{ else }}
+        <em class="muted">{{ i18n "abstracts_pending" }}</em>
+      {{ end }}
+    </p>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <h2 class="section-title">{{ i18n "keynotes_heading" }}</h2>
+    {{ $lang := .Site.Language.Lang }}
+    <div class="speaker-grid">
+      {{ range where .Site.Data.speakers "keynote" true }}
+      <article class="speaker">
+        {{ if .photo }}
+          <img class="speaker-photo" src="{{ .photo | relURL }}" alt="{{ .name }}" loading="lazy">
+        {{ else }}
+          <div class="speaker-photo placeholder" aria-hidden="true">{{ partial "network-motif.html" (dict "mode" "mark") }}</div>
+        {{ end }}
+        <h3 class="speaker-name">{{ .name }}</h3>
+        <p class="speaker-affil">{{ .affiliation }}</p>
+        <p class="speaker-bio">{{ index .bio $lang | default (index .bio "en") }}</p>
+        {{ with .links.website }}<a class="speaker-link" href="{{ . }}">{{ i18n "website_label" }}</a>{{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

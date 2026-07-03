@@ -1,0 +1,35 @@
+# Keynote speakers. Set keynote: true to show on the Abstracts and speakers page.
+# To add a photo, drop a file in static/img/speakers/ and set photo: "img/speakers/name.jpg"
+- id: "keynote-1"
+  name: "Keynote speaker one"
+  keynote: true
+  affiliation: "[Institution, Country]"
+  photo: ""
+  links:
+    website: ""
+  bio:
+    en: "Short biography in English. Replace with the speaker's bio."
+    es: "Breve biografía en español. Reemplace con la biografía de la persona."
+    pt: "Breve biografia em português. Substitua pela biografia da pessoa."
+- id: "keynote-2"
+  name: "Keynote speaker two"
+  keynote: true
+  affiliation: "[Institution, Country]"
+  photo: ""
+  links:
+    website: ""
+  bio:
+    en: "Short biography in English. Replace with the speaker's bio."
+    es: "Breve biografía en español. Reemplace con la biografía de la persona."
+    pt: "Breve biografia em português. Substitua pela biografia da pessoa."
+- id: "keynote-3"
+  name: "Keynote speaker three"
+  keynote: true
+  affiliation: "[Institution, Country]"
+  photo: ""
+  links:
+    website: ""
+  bio:
+    en: "Short biography in English. Replace with the speaker's bio."
+    es: "Breve biografía en español. Reemplace con la biografía de la persona."
+    pt: "Breve biografia em português. Substitua pela biografia da pessoa."

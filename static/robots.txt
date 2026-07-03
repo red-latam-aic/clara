@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://red-latam-aic.github.io/clara/sitemap.xml

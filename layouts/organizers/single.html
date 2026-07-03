@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="container narrow">
+    <p class="eyebrow"><span class="eyebrow-node" aria-hidden="true"></span>CLARA 2026</p>
+    <h1 class="page-title">{{ .Title }}</h1>
+    <div class="prose lede">{{ .Content }}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container narrow">
+    {{ $lang := .Site.Language.Lang }}
+    {{ range .Site.Data.organizers.committees }}
+    <div class="committee">
+      <h2 class="section-title">{{ index .role $lang | default (index .role "en") }}</h2>
+      <ul class="people">
+        {{ range .people }}
+        <li><span class="person-name">{{ .name }}</span><span class="person-affil">{{ .affiliation }}</span></li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ with .Site.Data.organizers.contact }}
+    <div class="committee contact">
+      <h2 class="section-title">{{ i18n "organizers_contact" }}</h2>
+      <p>{{ index .note $lang | default (index .note "en") }} <a href="mailto:{{ .email }}">{{ .email }}</a>.</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

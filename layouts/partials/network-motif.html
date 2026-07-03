@@ -1,0 +1,25 @@
+{{ if eq .mode "mark" }}
+<svg class="brand-mark" width="30" height="30" viewBox="0 0 30 30" aria-hidden="true" focusable="false">
+  <g class="edges"><line x1="6" y1="9" x2="22" y2="6"/><line x1="22" y1="6" x2="15" y2="22"/><line x1="15" y1="22" x2="6" y2="9"/><line x1="22" y1="6" x2="24" y2="18"/><line x1="24" y1="18" x2="15" y2="22"/></g>
+  <g class="nodes"><circle cx="6" cy="9" r="2.4"/><circle cx="22" cy="6" r="2.8"/><circle cx="15" cy="22" r="2.4"/><circle cx="24" cy="18" r="1.8"/></g>
+</svg>
+{{ else if eq .mode "hero" }}
+<svg class="hero-motif" viewBox="0 0 1200 560" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <g class="edges">
+    <line x1="90" y1="120" x2="280" y2="80"/><line x1="280" y1="80" x2="430" y2="190"/>
+    <line x1="430" y1="190" x2="640" y2="120"/><line x1="640" y1="120" x2="820" y2="220"/>
+    <line x1="820" y1="220" x2="1010" y2="150"/><line x1="1010" y1="150" x2="1120" y2="300"/>
+    <line x1="90" y1="120" x2="200" y2="320"/><line x1="200" y1="320" x2="430" y2="190"/>
+    <line x1="200" y1="320" x2="360" y2="450"/><line x1="360" y1="450" x2="560" y2="380"/>
+    <line x1="560" y1="380" x2="640" y2="120"/><line x1="560" y1="380" x2="780" y2="460"/>
+    <line x1="780" y1="460" x2="820" y2="220"/><line x1="780" y1="460" x2="980" y2="420"/>
+    <line x1="980" y1="420" x2="1120" y2="300"/><line x1="360" y1="450" x2="200" y2="320"/>
+  </g>
+  <g class="nodes">
+    <circle cx="90" cy="120" r="4"/><circle cx="280" cy="80" r="3"/><circle cx="430" cy="190" r="5"/>
+    <circle cx="640" cy="120" r="3.5"/><circle cx="820" cy="220" r="5"/><circle cx="1010" cy="150" r="3"/>
+    <circle cx="1120" cy="300" r="4"/><circle cx="200" cy="320" r="4.5"/><circle cx="360" cy="450" r="3.5"/>
+    <circle cx="560" cy="380" r="5"/><circle cx="780" cy="460" r="4"/><circle cx="980" cy="420" r="3.5"/>
+  </g>
+</svg>
+{{ end }}
