@@ -9,6 +9,7 @@ The keynote speakers are outstanding researchers with latinamerican backgroud sp
 
 [!comment](Add abstract and picture.)
 
+<!--
 - Prof. Fernanda Duarte, Oxford University, United Kingdom.
   _Topic_: Machine Learning in Chemistry. 
 - Prof. Fernanda Selingardi Matias, Universidade Federal de Alagoas, Brazil.
@@ -17,11 +18,11 @@ The keynote speakers are outstanding researchers with latinamerican backgroud sp
   _Topic_: Machine Learning for Drug Desing, applications of ML in industrial settings.
 - Prof. Vinicius Mikuni, Nagoya University, Japan.
   _Topic_: Machine Learning in High-Energy Physics.
-- Anais Möller, Swinburne University, Australia.
+- Prof. Anais Möller, Swinburne University, Australia.
   _Topic_: Machine Learning in Astronomy.
-- Ehecatl Antonio del Río Chanona, Imperial College London, United Kingdom. 
-  _Topic_: Machine Learning in Bioprocess Engineering. 
-
+- Prof. Ehecatl Antonio del Río Chanona, Imperial College London, United Kingdom. 
+  _Topic_: Machine Learning in Bioprocess Engineering. )
+-->
 # Organizers
 
 - Dr. Juan Carlos San Vicente, Temple University, USA.
@@ -29,7 +30,7 @@ The keynote speakers are outstanding researchers with latinamerican backgroud sp
 - Dr. Manuel Szewc, Universidad de San Martin, Argentina.
   _Topic_: Machine Learning in HEP.
 - Dr. Luis Itza Vazquez-Salazar, Heidelberg University, Germany.
- _Topic_: Generative Machine Learning in Chemistry.
+  _Topic_: Generative Machine Learning in Chemistry.
 
 # Selected Student Presentantions
 

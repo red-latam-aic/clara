@@ -6,6 +6,7 @@ type: "abstracts"
 
 Os palestrantes convidados são pesquisadores de destaque de origem latino-americana, especializados na aplicação de metodologias de IA nas ciências naturais e na engenharia.
 
+<!--
 - Prof. Fernanda Duarte, Oxford University, United Kingdom.
   _Topic_: Machine Learning in Chemistry. 
 - Prof. Fernanda Selingardi Matias, Universidade Federal de Alagoas, Brasil.
@@ -14,11 +15,11 @@ Os palestrantes convidados são pesquisadores de destaque de origem latino-ameri
   _Topic_: Machine Learning for Drug Design, applications of ML in industrial settings.
 - Prof. Vinicius Mikuni, Nagoya University, Japan.
   _Topic_: Machine Learning in High-Energy Physics.
-- Anais Möller, Swinburne University, Australia.
+- Prof. Anais Möller, Swinburne University, Australia.
   _Topic_: Machine Learning in Astronomy.
-- Ehecatl Antonio del Río Chanona, Imperial College London, United Kingdom. 
+- Prof. Ehecatl Antonio del Río Chanona, Imperial College London, United Kingdom. 
   _Topic_: Machine Learning in Bioprocess Engineering. 
-
+-->
 # Organizadores
 
 - Dr. Juan Carlos San Vicente, Temple University, USA.

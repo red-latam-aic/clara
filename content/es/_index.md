@@ -18,7 +18,7 @@ Nuestro objetivo es construir una comunidad duradera, compartir métodos y resul
 ## Fechas importantes
 
 - Apertura de envío de resúmenes: [1-07-2026]
-- Cierre de envío de resúmenes: [5-08-2026]
-- Notificación de aceptación: [7-08-2026]
+- Cierre de envío de resúmenes: [28-08-2026]
+- Inicio de notificación de aceptación: [11-09-2026]
 - Cierre de inscripción: [NA]
-- Conferencia: 11 al 13 de Agosto 2026
+- Conferencia: Octubre 2026 (Datas exatas TBA)
